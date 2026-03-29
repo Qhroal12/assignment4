@@ -29,7 +29,7 @@ int main() {
 
 		int any = findGCD(a, i);												//시간 계산 시 사용
 
-		//printf("i: %d, GCD: %d, 횟수: %d\n",i, findGCD(a, i), count);			//여러 개의 값을 확인할 때 사용
+		//printf("i: %d, GCD: %d, 횟수: %d\n",i, findGCD(a, i), count);			//과제 2의 값을 확인할 때 사용
 		
 		if (count > bigcount) {
 			bigcount = count;
@@ -39,7 +39,7 @@ int main() {
 		count = 0;
 	}
 
-	//printf("\n최고 반복 횟수: %d, 가장 많이 반복 한 수: %d", bigcount, bigone);
+	//printf("\n최고 반복 횟수: %d, 가장 많이 반복 한 수: %d", bigcount, bigone);	//과제 2의 값을 확인할 때 사용
 
 	return 0;
 }
