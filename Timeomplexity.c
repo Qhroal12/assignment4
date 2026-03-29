@@ -27,7 +27,7 @@ int main() {
 
 	for(int i = 0; i < a; i++){
 
-		int any = findGCD(a, i);												//시간 계산 시 사용
+		int any = findGCD(a, i);												//시간 계산 시 사용, 미사용시 비활성화
 
 		//printf("i: %d, GCD: %d, 횟수: %d\n",i, findGCD(a, i), count);			//과제 2의 값을 확인할 때 사용
 		
